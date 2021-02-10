@@ -31,7 +31,7 @@ body{
 }
 
 @media and (max-width:560){
-    .ClockBody{
+    /* .ClockBody{
         width:100%;
-    }
+    } */
 }

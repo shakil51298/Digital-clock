@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    background: rgb(214, 220, 240);
+}
+.nav {
+    font-size: 30px;
+    background: rgb(149, 72, 72);
+    padding: 20px;
+    font-family: 'cursive';
+    letter-spacing: 8px;
+}
+
+.ClockBody {
+    font-size: 80px;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 8px;
+    color: red;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.naming {
+    margin-top: 50px;
+    letter-spacing: 8px;
+    font-family: 'Big Shoulders Display', cursive;
+}

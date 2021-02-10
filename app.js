@@ -22,6 +22,8 @@ setInterval(() => {
 
     time = h + ':' + m +  ':' + s + ' ' + ampm;
 
-    document.getElementById('clocks').innerHTML = time;
+    document.getElementById('clocks').innerHTML =`
+    <h1 class="display-1">${time}</h1>
+    `;
 
 }, 1000);

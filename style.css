@@ -6,7 +6,7 @@ body{
     
     background: rgb(214, 220, 240);
 }
-.nav {
+.navbars {
     font-size: 30px;
     background: rgb(149, 72, 72);
     padding: 20px;
@@ -21,10 +21,17 @@ body{
     color: red;
     margin-top: 100px;
     text-align: center;
+    width: 100%;
 }
 
 .naming {
     margin-top: 50px;
     letter-spacing: 8px;
     font-family: 'Big Shoulders Display', cursive;
+}
+
+@media and (max-width:560){
+    .ClockBody{
+        width:100%;
+    }
 }
